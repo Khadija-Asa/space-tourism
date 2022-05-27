@@ -1,0 +1,49 @@
+/* Main settings */
+
+@font-face {
+  font-family: 'Barlow';
+  src: url(./../fonts/BarlowCondensed-Regular.ttf);
+}
+
+@font-face {
+  font-family: 'Bellefair';
+  src: url(./../fonts/Bellefair-Regular.ttf);
+}
+
+.dark-blue {
+  color: #0B0D17;
+}
+
+.light-blue {
+  color: #D0D6F9;
+}
+
+.white {
+  color: #fff;
+}
+
+* {
+  box-sizing: border-box;
+  line-height: 1;
+  vertical-align: baseline;
+}
+
+ul, li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  display: block;
+  height: auto;
+  max-width: 100%;
+}
+
+html {
+  scroll-behavior: smooth;
+}

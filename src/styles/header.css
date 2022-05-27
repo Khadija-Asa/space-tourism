@@ -1,0 +1,66 @@
+/* Menu burger (mobile) */
+
+.navbar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 75px;
+  color: #fff;
+  font-family: 'Barlow';
+}
+
+.navbar-links {
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  height: 100vh;
+  padding: 2rem;
+  background-color: red;
+}
+
+.navbar-link {
+  display: block;
+  padding: 1.5rem;
+}
+
+.navbar-burger {
+  background: transparent;
+  border: none;
+  height: 40px;
+  width: 40px;
+  display: block;
+  position: fixed;
+  top: 1rem;
+  right: 1.5rem;
+  cursor: pointer;
+}
+
+.burger-bar,
+.burger-bar::before,
+.burger-bar::after {
+  display: block;
+  height: 3px;
+  width: 40px;
+  position: relative;
+  border-radius: 3px;
+  background-color: #fff;
+}
+
+.burger-bar::before,
+.burger-bar::after {
+  content: '';
+  position: absolute;
+  left: 0;
+}
+
+.burger-bar::before {
+  transform: translateY(-12px);
+}
+
+.burger-bar::after {
+  transform: translateY(12px);
+}
