@@ -8,15 +8,7 @@
 .navbar-link {
   color: #fff;
   text-transform: uppercase;
-}
-
-.navbar-link:hover,
-.navbar-link:active {
-  border-bottom: 1px solid;
-  color: #fff;
-  padding-bottom: 10px;
   text-decoration: none;
-  width: fit-content;
 }
 
 @media screen and (max-width: 767px) {
@@ -48,6 +40,11 @@
     display: flex;
     gap: 14px;
     font-weight: 400;
+    text-decoration: none;
+  }
+  /* Hover */
+  .navbar-link:hover {
+    color: #fff;
     text-decoration: none;
   }
   .link-number {
@@ -103,31 +100,36 @@
   .navbar {
     padding: 0 0 0 36px;
   }
-  /* .navbar-links {
+  .navbar-links {
     align-items: center;
     background: rgba(255, 255, 255, 0.04);
     -webkit-backdrop-filter: blur(81.5485px);
     backdrop-filter: blur(81.5485px);
     display: flex;
-    height: 96px;
     justify-content: space-around;
     padding: 5%;
+    position: relative;
     width: 450px;
-  } */
-  .navbar-links {
+  }
+  .navbar-link {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
     height: 17px;
-left: 0%;
-right: 90.45%;
-top: calc(50% - 17px/2 - 0.5px);
-
-font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 17px;
-/* identical to box height */
-
-letter-spacing: 2.3625px;
-
+    letter-spacing: 2.3625px;
+    line-height: 17px;
+  }
+  /* Hover */
+  .navbar-link:hover {
+    border-bottom: solid 3px rgba(255,255,255,.3);
+    color: #fff;
+    padding-bottom: 2rem;
+    text-decoration: none;
+    transition: all .4s ease;
+  }
+  .navbar-links .active {
+    border-bottom: solid 3px #fff;
+    padding-bottom: 2rem;
   }
 }
 

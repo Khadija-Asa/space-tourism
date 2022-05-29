@@ -14,7 +14,7 @@ const Header = () => {
   }
 
   return (
-      <nav className={`navbar d-flex ${showLinks ? "show-nav" : "hide-nav"} `}>
+      <nav className={`navbar ${showLinks ? "show-nav" : "hide-nav"} `}>
 
         <NavLink to="/">
           <img src={logo} alt="Logo Space Tourism" />
