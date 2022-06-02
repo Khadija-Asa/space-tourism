@@ -2,9 +2,6 @@ import {React, useState} from 'react';
 import { NavLink } from "react-router-dom";
 import './../styles/header.css';
 import logo from './../assets/shared/logo.svg';
-import open from './../assets/shared/icon-hamburger.svg';
-import close from './../assets/shared/icon-close.svg';
-
 
 const Header = () => {
 
@@ -17,7 +14,7 @@ const Header = () => {
       <nav className={`navbar ${showLinks ? "show-nav" : "hide-nav"} `}>
 
         <NavLink to="/">
-          <img src={logo} alt="Logo Space Tourism" />
+          <img className='navbar-logo' src={logo} alt="Logo Space Tourism" />
         </NavLink>
 
         <ul className='navbar-links'>
