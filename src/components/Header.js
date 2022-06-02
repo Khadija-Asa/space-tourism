@@ -16,6 +16,7 @@ const Header = () => {
         <NavLink to="/">
           <img className='navbar-logo' src={logo} alt="Logo Space Tourism" />
         </NavLink>
+        <span className="navbar-line"></span>
 
         <ul className='navbar-links'>
           <li className='navbar-item'>
