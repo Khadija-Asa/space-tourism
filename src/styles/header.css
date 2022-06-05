@@ -3,6 +3,8 @@
 .navbar {
   font-family: 'Barlow';
   padding: 24px;
+  position: absolute;
+  width: 100%;
 }
 
 .navbar-link {
@@ -153,7 +155,7 @@
     width: 48px;
   }
   .navbar {
-    margin: 40px 0 0 55px;
+    padding: 40px 0 0 55px;
     gap: 50px;
   }
   .navbar-links {

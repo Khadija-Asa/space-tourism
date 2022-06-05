@@ -2,7 +2,7 @@ import React from 'react';
 
 const Technology = () => {
   return (
-    <div>
+    <div className='technology'>
       Je suis technology
     </div>
   );

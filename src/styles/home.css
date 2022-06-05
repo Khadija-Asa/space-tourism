@@ -1,0 +1,59 @@
+/* Mobile */
+
+.home {
+  font-family: 'Barlow';
+  flex-direction: column;
+  padding: 124px 24px 0 24px;
+}
+
+.text-box h1 {
+  font-size: 16px;
+  letter-spacing: 2.7px;
+  line-height: 19px;
+  max-width: 450px;
+}
+
+.box-word {
+  font-family: 'Bellefair';
+  font-size: 80px;
+  line-height: 130px;
+}
+
+.text-box p {
+  font-size: 15px;
+  height: 125px;
+  line-height: 25px;
+}
+
+.home-button button {
+  border: none;
+  border-radius: 50%;
+  font-family: 'Bellefair';
+  font-size: 20px;
+  height: 150px;
+  letter-spacing: 1.25px;
+  line-height: 23px;
+  width: 150px;
+}
+
+/* Hover button */
+
+.home-button button:hover {
+  animation: pulse-white 2s infinite;
+  box-shadow: 0 0 0 0 rgba(255, 255, 255, 1);
+}
+
+@keyframes pulse-white {  
+  0% {
+    transform: scale(1);
+    box-shadow: 0 0 0 10px rgba(255, 255, 255, .7);
+  }
+  70% {
+    transform: scale(1);
+    box-shadow: 0 0 0 30px rgba(255, 255, 255, 0);
+  }  
+  100% {
+    transform: scale(1);
+    box-shadow: 0 0 0 10px rgba(255, 255, 255, 0);
+  }
+}
