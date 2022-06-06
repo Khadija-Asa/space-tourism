@@ -10,7 +10,6 @@
   font-size: 16px;
   letter-spacing: 2.7px;
   line-height: 19px;
-  max-width: 450px;
 }
 
 .box-word {
@@ -23,6 +22,8 @@
   font-size: 15px;
   height: 125px;
   line-height: 25px;
+  max-width: 350px;
+  margin: 0 auto;
 }
 
 .home-button button {
@@ -55,5 +56,33 @@
   100% {
     transform: scale(1);
     box-shadow: 0 0 0 10px rgba(255, 255, 255, 0);
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .home {
+    padding: 241px 24px 0 24px;
+  }
+  .text-box h1 {
+    font-size: 20px;
+    letter-spacing: 3.3px;
+    line-height: 24px;
+  }
+  .box-word {
+    font-size: 150px;
+    line-height: 180px;
+  }
+  .text-box p {
+    font-size: 16px;
+    line-height: 28px;
+    max-width: 400px;
+  }
+  .home-button button {
+    font-size: 32px;
+    height: 242px;
+    letter-spacing: 2px;
+    line-height: 37px;
+    margin: 30px 0 90px 0;
+    width: 242px;
   }
 }
