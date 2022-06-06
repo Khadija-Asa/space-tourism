@@ -59,6 +59,8 @@
   }
 }
 
+/* Tablet */
+
 @media screen and (min-width: 768px) {
   .home {
     padding: 241px 24px 0 24px;
@@ -84,5 +86,32 @@
     line-height: 37px;
     margin: 30px 0 90px 0;
     width: 242px;
+  }
+}
+
+/* Desktop */
+
+@media screen and (min-width: 1440px) {
+  .home {
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 370px 0 0 0;
+    padding-left: 11vw;
+    text-align: justify !important;
+  }
+  .text-box h1 {
+    font-size: 28px;
+    letter-spacing: 4.7px;
+    line-height: 34px;
+  }
+  .text-box p {
+    font-size: 18px;
+    line-height: 32px;
+    margin: 0;
+  }
+  .home-button button {
+    height: 274px;
+    margin-right: 10vw;
+    width: 274px;
   }
 }
