@@ -1,8 +1,7 @@
 /* Mobile */
-
 .destination {
   font-family: 'Barlow';
-  padding: 90px 24px;
+  padding: 100px 24px;
   text-align: center;
   flex-direction: column;
   gap: 30px;
@@ -25,9 +24,8 @@
 }
 
 /* Box */
-
 .planet-box {
-  gap: 40px;
+  gap: 30px;
 }
 
 .planet-box img {
@@ -37,13 +35,64 @@
 
 .planet-list {
   justify-content: center;
+  gap: 20px;
 }
 
 .planet-list button {
   background: transparent;
   border: none;
   font-size: 14px;
-  letter-spacing: 5px;
+  letter-spacing: 2px;
   line-height: 16.8px;
-  margin-bottom: 50px;
+  padding-bottom: 8px;
+}
+
+.planet-list .border-bottom {
+  border-bottom: 3px solid #fff!important;
+  border-radius: 5%;
+}
+
+.planet-box h2 {
+  font-family: 'Bellefair';
+  font-size: 56px;
+  line-height: 64px;
+}
+
+.planet-box p {
+  font-family: 'Barlow';
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 25px;
+  margin-top: -35px;
+}
+
+/* Line */
+.planet-line {
+  background: #383B4B;
+  height: 1px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+/* Footer */
+.planet-infos {
+  flex-direction: column;
+  gap: 20px;
+}
+
+.planet-infos p {
+  display: flex;
+  flex-direction: column;
+  font-family: 'Barlow';
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: 2.3625px;
+  gap: 10px;
+}
+
+.infos-number {
+  font-family: 'Bellefair';
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 32px;
 }

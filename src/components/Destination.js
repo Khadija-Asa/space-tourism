@@ -21,27 +21,25 @@ const Destination = () => {
         <ul className='planet-list d-flex'>
           {planets.map((item, index) => (
             <li key={index}>
-              <button onClick={() => setValue(index)} className={`fun light-blue text-uppercase ${index === value && "white"}`}>
+              <button onClick={() => setValue(index)} className={`light-blue text-uppercase ${index === value && "white border-bottom"}`}>
                 {item.name}
               </button>
             </li>
           ))}
         </ul>
 
-        <h2 className='planet-title'>{name}</h2>
+        <h2 className='white text-uppercase'>{name}</h2>
 
-        <p className='planet-description'>
+        <p className='light-blue'>
           {description}
         </p>
       </div>
 
       <span className='planet-line'></span>
 
-      <div className="planet-infos">
-        <ul className="infos-list">
-          <li className="infos-title">Avg. Distance <span className="infos-number">{distance}</span></li>
-          <li className="infos-title">Est. travel time<span className="infos-number">{travel}</span></li>
-        </ul>
+      <div className="planet-infos light-blue d-flex text-uppercase">
+        <p>Avg. Distance <span className="infos-number white">{distance}</span></p>
+        <p>Est. travel time <span className="infos-number white">{travel}</span></p>
       </div>
 
     </section>
