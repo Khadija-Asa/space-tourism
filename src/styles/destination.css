@@ -1,14 +1,15 @@
 /* Mobile */
+
+/* Top */
 .destination {
   font-family: 'Barlow';
-  padding: 100px 24px;
+  padding: 100px 24px 58px 24px;
   text-align: center;
   flex-direction: column;
   gap: 30px;
 }
 
 .destination h1 {
-  font-size: 16px;
   font-size: 16px;
   letter-spacing: 2.7px;
   line-height: 19px;
@@ -28,7 +29,7 @@
   gap: 30px;
 }
 
-.planet-box img {
+.destination img {
   margin: 0 auto;
   width: 170px;
 }
@@ -63,7 +64,9 @@
   font-weight: 400;
   font-size: 15px;
   line-height: 25px;
+  margin: 0 auto;
   margin-top: -35px;
+  max-width: 450px;
 }
 
 /* Line */
@@ -95,4 +98,49 @@
   font-weight: 400;
   font-size: 28px;
   line-height: 32px;
+}
+
+
+/* Tablet */
+@media screen and (min-width: 768px) {
+  /* Top */
+  .destination {
+    padding: 136px 38.5px 62px 38.5px;
+    gap: 40px;
+  }
+  .destination h1 {
+    font-size: 20px;
+    letter-spacing: 3.375px;
+    line-height: 24px;
+    text-align: left;
+  }
+  .title-number {
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 3.375px;
+    margin-right: 10px;
+  }
+  /* Box */
+  .destination img {
+    width: 300px;
+  }
+  .planet-list button {
+    font-size: 16px;
+    letter-spacing: 2.7px;
+    line-height: 19px;
+    padding-bottom: 10px;
+  }
+  .planet-box h2 {
+    font-size: 80px;
+    line-height: 92px;
+  }
+  .planet-box p {
+    font-size: 16px;
+    line-height: 28px;
+  }
+  /* Footer */
+  .planet-infos {
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
 }

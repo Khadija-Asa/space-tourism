@@ -14,9 +14,10 @@ const Destination = () => {
     <section className="destination d-flex">
 
       <h1 className='text-uppercase white'><span className='title-number'>01</span> pick your destination</h1>
+      <img src={images.png} alt={name} title={name} />
 
-      <div className="planet-box d-flex flex-column">
-        <img src={images.png} alt={name} title={name} />
+
+       <div className="planet-box d-flex flex-column">
 
         <ul className='planet-list d-flex'>
           {planets.map((item, index) => (
@@ -33,6 +34,7 @@ const Destination = () => {
         <p className='light-blue'>
           {description}
         </p>
+
       </div>
 
       <span className='planet-line'></span>
