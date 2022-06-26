@@ -144,3 +144,12 @@
     justify-content: space-evenly;
   }
 }
+
+/* Desktop */
+@media screen and (min-width: 768px) {
+  /* Top */
+  .destination {
+    padding: 212px 163px 112px 166px;
+  }
+  /* NOT FINISHED */
+}

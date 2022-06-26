@@ -16,7 +16,6 @@ const Destination = () => {
       <h1 className='text-uppercase white'><span className='title-number'>01</span> pick your destination</h1>
       <img src={images.png} alt={name} title={name} />
 
-
        <div className="planet-box d-flex flex-column">
 
         <ul className='planet-list d-flex'>
